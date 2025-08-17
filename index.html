@@ -1,66 +1,568 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <section id="headerpart">
-        <div class="container">
-            <div class="logomenu">
-                <div class="logo">
-                    <img src="images/logo.png" alt="logo.png">
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                           <li><a href="#">Tournament</a></li>
-                           <li><a href="#">Store</a></li>
-                           <li><a href="#">Team</a></li>
-                           <li><a href="#">FAQ</a></li>
-                           <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                      <div class="search">
-                         <a href="#"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.1837 6.82393C13.5988 3.2224 12.2193 0.693665 10.6138 0.693665C9.00832 0.693665 7.62874 3.2224 7.04384 6.82393H14.1837ZM6.7413 10.6957C6.7413 11.591 6.7897 12.4501 6.87441 13.2768H14.3491C14.4338 12.4501 14.4822 11.591 14.4822 10.6957C14.4822 9.80034 14.4338 8.9413 14.3491 8.11452H6.87441C6.7897 8.9413 6.7413 9.80034 6.7413 10.6957ZM19.8392 6.82393C18.6855 4.08548 16.3499 1.96812 13.4657 1.1131C14.45 2.47628 15.1276 4.52912 15.4826 6.82393H19.8392ZM7.75782 1.1131C4.87766 1.96812 2.53804 4.08548 1.38839 6.82393H5.74494C6.09588 4.52912 6.77357 2.47628 7.75782 1.1131ZM20.2708 8.11452H15.644C15.7287 8.96146 15.7771 9.82857 15.7771 10.6957C15.7771 11.5628 15.7287 12.4299 15.644 13.2768H20.2668C20.4886 12.4501 20.6137 11.591 20.6137 10.6957C20.6137 9.80034 20.4886 8.9413 20.2708 8.11452ZM5.45047 10.6957C5.45047 9.82857 5.49888 8.96146 5.58359 8.11452H0.956773C0.738946 8.9413 0.609863 9.80034 0.609863 10.6957C0.609863 11.591 0.738946 12.4501 0.956773 13.2768H5.57955C5.49888 12.4299 5.45047 11.5628 5.45047 10.6957ZM7.04384 14.5674C7.62874 18.169 9.00832 20.6977 10.6138 20.6977C12.2193 20.6977 13.5988 18.169 14.1837 14.5674H7.04384ZM13.4697 20.2783C16.3499 19.4232 18.6895 17.3059 19.8432 14.5674H15.4867C15.1317 16.8622 14.454 18.9151 13.4697 20.2783ZM1.38839 14.5674C2.54207 17.3059 4.87766 19.4232 7.76186 20.2783C6.7776 18.9151 6.09992 16.8622 5.74494 14.5674H1.38839Z" fill="white"/>
-</svg></a>
-                <a href="#"><i class="fa-solid fa-right-from-bracket"></i>Sign In </a>
-                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hancok</title>
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font end -->
+    <!-- css file start -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- css file end -->
+  </head>
+
+  <body>
+    <!-- header part start -->
+    <section id="head">
+      <div class="common">
+        <div class="hmain">
+          <div class="hlogo"><img src="images/logo.png" alt="logo.png" /></div>
+          <div class="hmenu">
+            <ul>
+              <li><a href="#">Home </a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Tornament</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
           </div>
-            </div>
+          <div class="hlink">
+            <a href="#"><i class="fa-solid fa-globe"></i> </a>
+            <a href="#"
+              ><i class="fa-solid fa-right-from-bracket"></i> Sign In</a
+            >
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i> </a>
+          </div>
         </div>
+      </div>
     </section>
-    <section id="bannerpart">
-        <div class="container">
-            <div class="bannertext">
-                <h3>LIFE TIME</h3>
-                <h1>GAMING EXPERIENCE</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae alias voluptas optio. 
-Veritatis recusandae pariatur qui dignissimos dolore similique ad adipisci eum. Quos 
-aliquid fugiat magni illum eius?
-                </p>
-                 <a href="#">View More<i class="fa-solid fa-angles-right"></i></a>
-            </div>
-               <div class="bannericon">
-                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5.16719 17.5H1.53906V5.81638H5.16719V17.5ZM3.35117 4.22263C2.19102 4.22263 1.25 3.26169 1.25 2.10154C1.25 1.54427 1.47137 1.00983 1.86542 0.615785C2.25947 0.221739 2.79391 0.000366211 3.35117 0.000366211C3.90844 0.000366211 4.44288 0.221739 4.83692 0.615785C5.23097 1.00983 5.45234 1.54427 5.45234 2.10154C5.45234 3.26169 4.51094 4.22263 3.35117 4.22263ZM18.7461 17.5H15.1258V11.8125C15.1258 10.457 15.0984 8.71873 13.2395 8.71873C11.3531 8.71873 11.0641 10.1914 11.0641 11.7148V17.5H7.43984V5.81638H10.9195V7.41013H10.9703C11.4547 6.49216 12.6379 5.52341 14.4031 5.52341C18.075 5.52341 18.75 7.94138 18.75 11.082V17.5H18.7461Z" fill="black"/>
-</svg></a>
-<a href="#"><i class="fa-brands fa-twitter"></i></a>
-<a href="#"><i class="fa-brands fa-instagram"></i></a>
-               </div>
-               
+    <!-- header part end -->
+    <!-- banner part start -->
+    <section id="banner">
+      <div class="common">
+        <div class="btext">
+          <h3>LIFE TIME</h3>
+          <h1>GAMING EXPERIENCE</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            alias voluptas optio. Veritatis recusandae pariatur qui dignissimos
+            dolore similique ad adipisci eum. Quos aliquid fugiat magni illum
+            eius?
+          </p>
+          <a href="#"
+            >View More &nbsp; <i class="fa-solid fa-angles-right"></i
+          ></a>
         </div>
+        <div class="bsocial">
+          <a href="#"><i class="fa-brands fa-facebook-f bac"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in bac"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter bac"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram bac"></i></a>
+        </div>
+      </div>
     </section>
-</body>
+    <!-- banner part end -->
+    <!-- about part start -->
+    <section id="about">
+      <div class="common">
+        <div class="atext">
+          <h3>ABOUT THE BIGGEST HANCOK COMMUNITY</h3>
+        </div>
+        <div class="aitems">
+          <div class="aimg">
+            <img src="images/image 1.png" alt="image 1.png" />
+          </div>
+          <div class="itex">
+            <h4>MOST POPULAR GAMING PLATFORM.</h4>
+            <ul>
+              <li>
+                <i class="fa-solid fa-check sym"></i>
+                <p>World Bigghest Community & Gaming Server</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check sym"></i>
+                <p>Friendly Clan & Mates</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check sym"></i>
+                <p>We Provide Gaming Accesories</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check sym"></i>
+                <p>Largest Online Gaming Community & Shop</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check sym"></i>
+                <p>Hancok reaches more than 150 million monthly users</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check sym"></i>
+                <p>We are leading global media brand for games</p>
+              </li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex illo
+              sed odio temporibus magni quia eveniet odit placeat repellat quod
+              ipsum modi necessitatibus, dolorum officia!
+            </p>
+            <a href="#"
+              >View More &nbsp; <i class="fa-solid fa-angles-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="ascor">
+          <div class="asz">
+            <center>
+              <img src="images/counter1.png" alt="counter1.png" />
+              <p>Community Earning</p>
+            </center>
+          </div>
+          <div class="asz">
+            <center>
+              <img src="images/counter1 (1).png" alt="counter1 (1).png" />
+              <p>Total Member</p>
+            </center>
+          </div>
+          <div class="asz">
+            <center>
+              <img src="images/counter1 (2).png" alt="counter1 (1).png" />
+              <p>Streams Complete</p>
+            </center>
+          </div>
+          <div class="asz">
+            <center>
+              <img src="images/counter1 (3).png" alt="counter1 (1).png" />
+              <p>Total Sponsers</p>
+            </center>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about part end -->
+    <!-- popolar part start -->
+    <section id="popular">
+      <div class="common">
+        <div class="pitem">
+          <div class="pimg">
+            <img src="images/violant.png" alt="violant.png" />
+          </div>
+          <div class="ptext">
+            <h3>
+              POPULAR GAMES AROUND THE <br />
+              WORLD
+            </h3>
+            <img src="images/trend-games3 1.png" alt="trend-games3 1.png" />
+            <div class="panc">
+              <div class="azz">
+                <a href="#" class="pa"
+                  ><i class="fa-solid fa-angle-right"></i
+                ></a>
+              </div>
+              <div class="aza">
+                <a href="#" class="nc"
+                  ><i class="fa-solid fa-angle-left"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- popolar part end -->
+    <!-- live part start -->
+    <section id="live">
+      <div class="common">
+        <div class="lhead"><h3>LIVE STREAMIN VIDEO BY HANCOK</h3></div>
+        <div class="litems">
+          <div class="a">
+            <img src="images/tournament-item1.png" alt="tournament-item1.png" />
+          </div>
+          <div class="a">
+            <img src="images/tour-content2.png" alt="tour-content2.png" />
+          </div>
+          <div class="a">
+            <img src="images/tournament-item3.png" alt="tournament-item3.png" />
+          </div>
+        </div>
+        <div class="lmid"><p>PREVIOUS MATCHES</p></div>
+        <div class="mflex">
+          <div class="team1">
+            <img src="images/contest1 1.png" alt="contest1 1.png" />
+            <p>TEAM DELTA</p>
+          </div>
+          <div class="mtext"><p>9:12</p></div>
+          <div class="team2">
+            <p>TEAM DELTA</p>
+            <img src="images/contest2 1.png" alt="contest2 1.png" />
+          </div>
+        </div>
+        <div class="mflexz">
+          <div class="team1">
+            <img src="images/contest3 1.png" alt="contest3 1.png" />
+            <p>TEAM DEVILS</p>
+          </div>
+          <div class="mtext"><p>17:8</p></div>
+          <div class="team2">
+            <p>TEAM NINJA</p>
+            <img src="images/contest4 1.png" alt="contest4 1.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- live part end -->
+    <!-- sale part start -->
+    <section id="sale">
+      <div class="common">
+        <div class="shead">
+          <h3>
+            TOP GAMES ON BLACK FRIDAY <br />
+            SALE
+          </h3>
+        </div>
+        <div class="sitems">
+          <div class="pass">
+            <div class="passimg">
+              <img src="images/sale1 1.png" alt="sale1 1.png" />
+              <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
+            </div>
+            <h6>Horizon Zero Dawn™ Complet...</h6>
+            <p>Guerrilla Games</p>
+            <div class="price">
+              <div class="z">-40%</div>
+              <div class="x"><del>$19.99</del></div>
+              <div class="y">$7.99</div>
+            </div>
+          </div>
+          <div class="pass">
+            <div class="passimg">
+              <img src="images/sale3 1.png" alt="sale3 1.png" />
+              <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
+            </div>
+            <h6>Disciples: Liberation</h6>
+            <p>Frima Studio</p>
+            <div class="price">
+              <div class="z">-40%</div>
+              <div class="x"><del>$19.99</del></div>
+              <div class="y">$7.99</div>
+            </div>
+          </div>
+          <div class="pass">
+            <div class="passimg">
+              <img src="images/sale4 1.png" alt="sale4 1.png" />
+              <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
+            </div>
+            <h6>Horizon Zero Dawn™ Complet...</h6>
+            <p>Guerrilla Games</p>
+            <div class="price">
+              <div class="z">-40%</div>
+              <div class="x"><del>$19.99</del></div>
+              <div class="y">$7.99</div>
+            </div>
+          </div>
+          <div class="pass">
+            <div class="passimg">
+              <img src="images/sale5 1.png" alt="sale5 1.png" />
+              <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
+            </div>
+            <h6>Industries of Titan</h6>
+            <p>Brace Yourself Games</p>
+            <div class="price">
+              <div class="z">-40%</div>
+              <div class="x"><del>$19.99</del></div>
+              <div class="y">$7.99</div>
+            </div>
+          </div>
+        </div>
+        <div class="vs"><p>Hancok Games Catalog</p></div>
+        <div class="second">
+          <div class="part">
+            <div class="ptex">
+              <h4>Choose Your Favourite Game</h4>
+              <h3>Explore hancok catalog for your next favorite game!</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Delectus culpa ratione enim maiores nisi cupiditate non nesciunt
+                officia labore aut? Et, vero!
+              </p>
+              <div class="pbtn"><h5>Browse All</h5></div>
+            </div>
+            <div class="pimag">
+              <img src="images/slide-img.png" alt="slide-img.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sale part end -->
+    <!-- accesoriese part start -->
+    <section id="accesoriese">
+      <div class="common">
+        <div class="acchead">
+          <h3>
+            WE PROVIDE ALL GAMING <br />
+            ACCESORIES
+          </h3>
+        </div>
+        <div class="accflex">
+          <a href="#" class="l"><i class="fa-solid fa-angle-left lp"></i></a>
+          <div class="accone">
+            <h4>$95</h4>
+            <img src="images/gampad.png" alt="gampad.png" />
+            <h5>Gaming Controller</h5>
+            <p>Add To Cart</p>
+          </div>
+          <div class="accone">
+            <h4>$95</h4>
+            <img src="images/keyboard.png" alt="keyboard.png" />
+            <h5>Gaming Keyboard</h5>
+            <p>Add To Cart</p>
+          </div>
+          <div class="accone">
+            <h4>$95</h4>
+            <img src="images/monitor.png" alt="monitor.png" />
+            <h5>Gaming Monitor</h5>
+            <p>Add To Cart</p>
+          </div>
+          <div class="accone">
+            <h4>$95</h4>
+            <img src="images/gampad.png" alt="gampad.png" />
+            <h5>Gaming Controller</h5>
+            <p>Add To Cart</p>
+          </div>
+          <a href="#" class="r"><i class="fa-solid fa-angle-right rp"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- accesoriese part end -->
+    <!-- team part start -->
+    <section id="team">
+      <div class="common">
+        <div class="thead">
+          <h3>
+            MEET OUR PROFESSIONAL ELITE <br />
+            TEAM
+          </h3>
+        </div>
+        <div class="tflex">
+          <div class="tone">
+            <img src="images/team-1 1.png" alt="team-1 1.png" />
+            <div class="hide">
+              <h3>Paladins</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper
+              </p>
+              <div class="hbtn">
+                <a href="#" class="km">Know more</a>
+                <div class="hsocial">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="th"><h4>Paladins</h4></div>
+          </div>
+          <div class="tone">
+            <img src="images/team-2 1.png" alt="team-2 1.png" />
+            <div class="hide">
+              <h3>CS:GO</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper
+              </p>
+              <div class="hbtn">
+                <a href="#" class="km">Know more</a>
+                <div class="hsocial">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="th"><h4>CS:GO</h4></div>
+          </div>
+        </div>
+        <div class="tflex">
+          <div class="tone">
+            <img src="images/team-3 1.png" alt="team-3 1.png" />
+            <div class="hide">
+              <h3>DOTA 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper
+              </p>
+              <div class="hbtn">
+                <a href="#" class="km">Know more</a>
+                <div class="hsocial">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="th"><h4>DOTA 2</h4></div>
+          </div>
+          <div class="tone">
+            <img src="images/team-4 1.png" alt="team-4 1.png" />
+            <div class="hide">
+              <h3>VALORANT</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper
+              </p>
+              <div class="hbtn">
+                <a href="#" class="km">Know more</a>
+                <div class="hsocial">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="th"><h4>VALORANT</h4></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- team part end -->
+    <!-- qna part start -->
+    <section id="qna">
+      <div class="common">
+        <div class="qhead">
+          <h3>
+            FREQUENTLY ASKED QUESTION <br />
+            “QUESTION & ANSWER”
+          </h3>
+        </div>
+        <div class="qitems">
+          <div class="qOne">
+            <div class="opp1"><h3>1</h3></div>
+            <div class="off1">
+              <h3>HOW TO DOWNLOAD THE GAME ?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, iste, sed error at adipisci repellat rem maiores
+                provident voluptatem ipsum autem fugiat.
+              </p>
+            </div>
+          </div>
+          <div class="qtwo">
+            <div class="opp1"><h3>2</h3></div>
+            <div class="off1">
+              <h3>IS THERE ANY AGE RESTRICTIONS ?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, iste, sed error at adipisci repellat rem maiores
+                provident voluptatem ipsum autem fugiat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="qitems">
+          <div class="qthree">
+            <div class="opp1"><h3>3</h3></div>
+            <div class="off1">
+              <h3>HOW TO BECOME A TEAM MEMBER ?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, iste, sed error at adipisci repellat rem maiores
+                provident voluptatem ipsum autem fugiat.
+              </p>
+            </div>
+          </div>
+          <div class="qfour">
+            <div class="opp1"><h3>4</h3></div>
+            <div class="off1">
+              <h3>IS THERE ANY REWARD FOR WINNERS ?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, iste, sed error at adipisci repellat rem maiores
+                provident voluptatem ipsum autem fugiat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- qna part end -->
+    <!-- footer part start -->
+    <section id="footer">
+      <div class="common">
+        <div class="fhead">
+          <h3>
+            subscribe us to get latest news in your inbox from hancok community
+          </h3>
+          <div class="fsub">
+            <input type="email" placeholder="your Email" class="eclas" />
+            <button class="sube" type="submit">
+              <a href="#">SUBSCRIBE</a>
+            </button>
+          </div>
+        </div>
+        <div class="fitems">
+          <div class="fsocial">
+            <img src="images/logo.png" alt="/logo.png" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero
+              officiis rem consectetur sunt cupiditate eius obcaecati, culpa,
+              aspernatur aperiam id.
+            </p>
+            <div class="fflink">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="flink">
+            <h3>LINKS</h3>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Tournament</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="fteam">
+            <h3>TEAMS</h3>
+            <a href="#">PALADINS</a>
+            <a href="#">CS:GO</a>
+            <a href="#">DOTA 2</a>
+            <a href="#">VALORANT</a>
+          </div>
+          <div class="fgallery">
+            <h3>GALLERY</h3>
+            <div class="gone">
+              <div class="cone"><img src="images/fglary.png" alt="" /></div>
+              <div class="cone"><img src="images/fglary2.png" alt="" /></div>
+              <div class="cone"><img src="images/fglary3.png" alt="" /></div>
+            </div>
+            <div class="gone mt">
+              <div class="cone"><img src="images/fglary4.png" alt="" /></div>
+              <div class="cone"><img src="images/fglary5.png" alt="" /></div>
+              <div class="cone"><img src="images/fglary6.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer part end -->
+    <!-- copyright part start -->
+    <section id="copy">
+      <div class="common">
+        <div class="copyt">
+          <p>© 2025 All rights reserved by</p>
+          &nbsp;<a href="#">Md Hasan al Kabir</a>
+        </div>
+      </div>
+    </section>
+    <!-- copyright part end -->
+  </body>
 </html>
